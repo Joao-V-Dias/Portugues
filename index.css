@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  color: #000000;
+  font-family: Impact;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.cards {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.cards > a {
+  margin: 10px;
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 7px 7px 42px 0px rgba(0, 0, 0, 0.75);
+  background-color: #1d1d1d;
+  transition: 0.2s;
+}
+
+.cards > a:hover {
+  scale: 1.05;
+}
+
+@media screen and (max-width: 750px) {
+  .cards > a {
+    width: 80%;
+  }
+}

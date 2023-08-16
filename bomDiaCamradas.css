@@ -1,0 +1,153 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+
+.contentBackground {
+  width: 100vw;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  z-index: -99;
+  clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+}
+
+.resumoBackground {
+  width: 100vw;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  z-index: -99;
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+#btnComprar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  width: 24rem;
+  height: 4rem;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Sarala;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #ffff;
+  border-radius: 0.625rem;
+  transition: 0.2s;
+}
+
+#btnComprar:hover {
+  background-color: #2b4777;
+  scale: 1.05;
+}
+
+.content > img {
+  float: right;
+}
+
+.imagem {
+  width: 80vw;
+  margin: 10vw;
+}
+
+#imagemLivroAberto {
+  float: left;
+  width: 50%;
+}
+
+.content > h1 {
+  color: #2b4777;
+  font-family: Impact;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content > p {
+  color: #dadada;
+
+  font-family: Sarala;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.comentarios {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+#textoComentario {
+  text-align: center;
+  width: 80%;
+}
+
+.comentarios > .btns > button {
+  width: 25px;
+  height: 15px;
+  margin: 3px;
+  border: none;
+  background-color: #2b4777;
+}
+
+.comentarios > div {
+  margin: 3vw;
+}
+
+.imgAutor {
+  float: right;
+  width: 40%;
+  margin: 0 5%;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+#h1Avaliacao {
+  color: #2b4777;
+  font-family: Impact;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.resumos {
+  margin: 10vw 0;
+}
+
+#autor {
+  color: #000;
+}
+
+.menu > a:hover {
+  color: #2b4777;
+}
