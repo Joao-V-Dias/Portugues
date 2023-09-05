@@ -11,6 +11,33 @@ main {
   margin: auto;
 }
 
+.navbarHeader {
+  width: 100vw;
+}
+
+.accordion {
+  width: 80vw;
+  margin: 5%;
+}
+.accordion-header {
+  font-size: 6rem;
+}
+
+.terceiro-texto {
+  width: 80vw;
+  text-align: center;
+}
+
+.content-text {
+  color: #d35c33;
+  font-family: Impact;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5rem;
+}
+
 .contentBackground {
   width: 100vw;
   height: 100%;

@@ -69,6 +69,20 @@ main {
   width: 50%;
 }
 
+.content-text-bomdia {
+  width: 80%;
+}
+
+.content-text-bomdia > h2 {
+  text-align: center;
+  color: #2b4777;
+  font-family: Impact;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .content > h1 {
   color: #2b4777;
   font-family: Impact;
@@ -78,7 +92,8 @@ main {
   line-height: normal;
 }
 
-.content > p {
+.content > p,
+content-text-bomdia > p {
   color: #dadada;
 
   font-family: Sarala;
